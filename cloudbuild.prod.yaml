@@ -22,4 +22,4 @@ substitutions:
   _FUNCTION_NAME    : my-nodejs-app
   _FUNCTION_REGION  : northamerica-northeast1	
   _FUNCTION_RUNTIME : nodejs18
-  _ENTRY_POINT      : helloworld
+  _ENTRY_POINT      : helloWorld

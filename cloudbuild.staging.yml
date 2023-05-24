@@ -20,7 +20,7 @@ steps:
 substitutions:
   _FUNCTION_PROJECT : first-kite-386308
   _FUNCTION_NAME    : my-nodejs-app
-  _FUNCTION_REGION  : us-central1
+  _FUNCTION_REGION  : northamerica-northeast1	
   _FUNCTION_RUNTIME : nodejs18
   _ENTRY_POINT      : helloworld
   

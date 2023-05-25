@@ -3,6 +3,10 @@ steps:
   args: ['echo', 'Building...']
   id: BUILD
  
+ - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  args: ['echo', 'Testing...']
+  id: TEST
+ 
 - name: 'grr.io/google.com/cloudsdktool/cloud-sdk'
   args:
   - gcloud
@@ -21,6 +25,6 @@ substitutions:
   _FUNCTION_PROJECT : first-kite-386308
   _FUNCTION_NAME    : my-nodejs-app
   _FUNCTION_REGION  : northamerica-northeast1	
-  _FUNCTION_RUNTIME : nodejs18
+  _FUNCTION_RUNTIME : nodejs14
   _ENTRY_POINT      : helloWorld
   
